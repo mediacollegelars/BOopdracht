@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+ }
+ body{
+     font-size: 20px;
+     font-family: sans-serif;
+ }
+ figcaption{
+    float: right;
+ }
+p{
+    font-size: 30px;
+    margin-right: 600px;
+ }
+.special-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background: black ;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    margin-left: 750px;
+  }
+.button {
+    color: black;
+    margin-right: 50px;
+
+}
+.button:hover {
+    display: inline-block;
+    background: black;
+    color: white; 
+}
+ h1{
+     font-size:250%;
+     margin-bottom: 20px;
+     border-bottom: 1px solid black;
+ }
+ .special-button:hover {
+    background: white;
+    color: black;
+ }
+div{
+    width: 100vw;
+    padding:20px;
+    background: rgb(81, 81, 212);
+    color: black;
+
+}
+ article{
+     width: 100vw;
+     margin: 0 auto;
+     padding: 400px;
+     background: black;
+     color: white;
+ }
+ 
+ img{
+     width:50%;
+ }
+
