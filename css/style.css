@@ -19,13 +19,13 @@ p{
     padding: 10px 20px;
     text-decoration: none;
     color: white;
-    background: black ;
+    background: #4B4B4B ;
     border-radius: 5px;
     transition: background 0.3s ease;
     margin-left: 750px;
   }
 .button {
-    color: black;
+    color: #FFFFFF;
     margin-right: 50px;
 
 }
@@ -46,7 +46,7 @@ p{
 div{
     width: 100vw;
     padding:20px;
-    background: blue;
+    background: black;
     color: black;
 
 }
@@ -54,7 +54,7 @@ div{
      width: 100vw;
      margin: 0 auto;
      padding: 260px;
-     background: black;
+     background: #4B4B4B;
      color: white;
  }
  
@@ -84,7 +84,7 @@ div{
             white-space: nowrap; 
           }
 .blackcolor{
-    background: black;
+    background: #4B4B4B;
     color: white;
     width: 70px;
 }
