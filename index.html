@@ -4,22 +4,6 @@
     <title>
       nxt meuseum
     </title>
-    <style>
-    .button-container {
-      white-space: nowrap; 
-    }
-    #object1 {
-        width: 500px;
-                height: 400px;
-                float: right;
-            }
-
-            p{
-                margin-bottom: 10px;
-            }
-
-
-</style>
 </head>
 <body>
         <div class="button-container"> 
@@ -32,7 +16,6 @@
     <article> 
     <figure>  
     <img id="object1" src ="img/1.png" />
-    <figcaption>Foto van meuseum.</figcaption>
     </figure>
     <p>
     in nxt kan je je beste moment vangen as artwork, een plek waar jong en oud samen kunnen genieten van de technology.
@@ -43,11 +26,36 @@
     <p>
     koop nu de ticket, en gaan een avontuur over de toekomst
     </p>
+    <script>
+        function Scroll()
+        {
+        var bottomelement = document.getElementById('Bottom')
+        bottomelement.scrollIntoView([ behavior: 'smooth'])
+        }
+    </script>
+    <div id="bottom">
     <footer>
         <p>
-        test1
+        Address
+        </p>
+        <p>
+        Nxt Museum
+        </p>
+        <p>
+        Asterweg 22
+        </p>
+        <p>
+        1031 HP Amsterdam
         </p>
     </footer>
+    </div>
+    <script>
+        function Scroll()
+        {
+        var bottomelement = document.getElementById('bottom')
+        bottomelement.scrollIntoView([ behavior: 'smooth'])
+        }
+    </script>
     </article>
 
 </body>

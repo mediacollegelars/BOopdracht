@@ -46,19 +46,40 @@ p{
 div{
     width: 100vw;
     padding:20px;
-    background: rgb(81, 81, 212);
+    background: blue;
     color: black;
 
 }
  article{
      width: 100vw;
      margin: 0 auto;
-     padding: 400px;
+     padding: 260px;
      background: black;
      color: white;
  }
  
+ p.p1{
+    width: 100vw;
+    background: blue;
+ }
+
  img{
      width:50%;
  }
 
+ footer{
+    margin-top: 500px;
+ }
+
+ #object1 {
+    width: 500px;
+            height: 400px;
+            float: right;
+        }
+
+        p{
+            margin-bottom: 10px;
+        }
+        .button-container {
+            white-space: nowrap; 
+          }
