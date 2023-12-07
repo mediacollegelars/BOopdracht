@@ -69,6 +69,9 @@ div{
 
  footer{
     margin-top: 500px;
+    background: #4B4B4B;
+    color: white;
+    width: 70px;
  }
 
  #object1 {
@@ -84,6 +87,12 @@ div{
             white-space: nowrap; 
           }
 .blackcolor{
+    background: #4B4B4B;
+    color: white;
+    width: 70px;
+}
+
+.color2{
     background: #4B4B4B;
     color: white;
     width: 70px;
