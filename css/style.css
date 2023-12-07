@@ -83,3 +83,7 @@ div{
         .button-container {
             white-space: nowrap; 
           }
+.blackcolor{
+    background: black;
+    color: white;
+}
