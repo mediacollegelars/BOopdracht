@@ -3,6 +3,11 @@
     margin:0;
     box-sizing: border-box;
  }
+
+ html{
+    scroll-behavior: smooth;
+ }
+
  body{
      font-size: 20px;
      font-family: sans-serif;
@@ -29,12 +34,18 @@ p{
     margin-right: 50px;
 
 }
+
+.scroll-button{
+    color: #FFFFFF;
+    margin-right: 50px;
+}
+
 .button:hover {
     display: inline-block;
     background: black;
     color: white; 
 }
- h1{
+h1{
      font-size:250%;
      margin-bottom: 20px;
      border-bottom: 1px solid black;
@@ -91,6 +102,8 @@ div{
     color: white;
     width: 70px;
 }
+
+
 
 .color2{
     background: #4B4B4B;
