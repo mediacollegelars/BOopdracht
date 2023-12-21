@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding:0;
     margin:0;
@@ -109,4 +110,104 @@ div{
     background: #4B4B4B;
     color: white;
     width: 70px;
+=======
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+ }
+ body{
+     font-size: 20px;
+     font-family: sans-serif;
+ }
+ figcaption{
+    float: right;
+ }
+p{
+    font-size: 30px;
+    margin-right: 600px;
+ }
+.special-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background: #4B4B4B ;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    margin-left: 500px;
+  }
+.button {
+    color: #FFFFFF;
+    margin-right: 50px;
+
+}
+.button:hover {
+    display: inline-block;
+    background: black;
+    color: white; 
+}
+ h1{
+     font-size:250%;
+     margin-bottom: 20px;
+     border-bottom: 1px solid black;
+ }
+ .special-button:hover {
+    background: white;
+    color: black;
+ }
+div{
+    width: 100vw;
+    padding:20px;
+    background: black;
+    color: black;
+
+}
+ article{
+     width: 100vw;
+     margin: 0 auto;
+     padding: 260px;
+     background: #4B4B4B;
+     color: white;
+ }
+ 
+ p.p1{
+    width: 100vw;
+    background: blue;
+ }
+
+ img{
+     width:50%;
+ }
+
+ footer{
+    margin-top: 500px;
+    background: #4B4B4B;
+    color: white;
+    width: 1000px;
+ }
+
+ #object1 {
+    width: 500px;
+            height: 400px;
+            float: right;
+        }
+
+        p{
+            margin-bottom: 10px;
+        }
+        .button-container {
+            white-space: nowrap; 
+          }
+.blackcolor{
+    background: #4B4B4B;
+    color: white;
+    width: 70px;
+}
+
+.color2{
+    background: #4B4B4B;
+    color: white;
+    width: 70px;
+>>>>>>> b7dac139aeccfb48a243cf874f48e5ef42096bfb
 }
