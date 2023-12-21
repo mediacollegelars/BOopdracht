@@ -6,8 +6,7 @@
  body{
      font-size: 20px;
      font-family: sans-serif;
-     padding:0px;
- }
+      }
  figcaption{
     float: right;
  }
@@ -30,6 +29,30 @@ p{
     margin-right: 50px;
 
 }
+
+.top{
+    width:80px;
+    height:80px;
+    background: black;
+    border:none;
+    font-size: 150%;
+    font-family: 'Open Sans', sans-serif;;
+    border-radius: 5px;
+    color:white;
+    position: fixed;
+    bottom:120px;
+    right:120px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.scroll-button{
+    color: #FFFFFF;
+    margin-right: 50px;
+}
+
 .button:hover {
     display: inline-block;
     background: black;
@@ -46,8 +69,8 @@ p{
  }
 div{
     width: 100vw;
-
-    
+padding:20px;
+    background: black;
     color: black;
 
 }
@@ -92,6 +115,8 @@ div{
     color: white;
     width: 70px;
 }
+
+
 
 .color2{
     background: #4B4B4B;
