@@ -3,6 +3,9 @@
     margin:0;
     box-sizing: border-box;
  }
+html{
+    scroll-behavior: smooth;
+}
  body{
      font-size: 20px;
      font-family: sans-serif;
@@ -11,9 +14,15 @@
     float: right;
  }
 p{
-    font-size: 30px;
-    margin-right: 600px;
+    font-size: 25px;
+    margin-right: 800px;
+    display:flex;
  }
+
+footer > div > p{
+    
+}
+
 .special-button {
     display: inline-block;
     padding: 10px 20px;
@@ -22,12 +31,12 @@ p{
     background: #4B4B4B ;
     border-radius: 5px;
     transition: background 0.3s ease;
+    margin-left: 450px;
   }
 .button {
     color: #FFFFFF;
     margin-right: 50px;
-    line-height: 45px;
-
+    text-decoration: none;
 }
 
 .top{
@@ -92,15 +101,19 @@ div{
  }
 
  footer{
-    margin-top: 500px;
+    margin-top: 100px;
     background: #4B4B4B;
     color: white;
-    width: 1000px;
- }
+    width: 900px;
+    font-size: 20px;
+    bottom:120px;
+}
+
+
 
  #object1 {
-    width: 500px;
-            height: 400px;
+    width: 600px;
+            height: 500px;
             float: right;
         }
 
@@ -109,16 +122,21 @@ div{
         }
         .button-container {
             white-space: nowrap; 
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
           }
+
+#object2{
+    width: 100px;
+    height: 40px;
+    float: right;
+}
 .blackcolor{
     background: #4B4B4B;
     color: white;
+    width: 70px;
 }
 
-
+article > figure > p{
+}
 
 .color2{
     background: #4B4B4B;
