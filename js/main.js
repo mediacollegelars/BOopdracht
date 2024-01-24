@@ -99,8 +99,23 @@ function updatePageIndicators() {
     pageIndicators[currentSlideIndex].classList.add('active');
 }
 
+let currentLanguage;
+
+function checkInitialLanguage() {
+    const htmlLang = document.documentElement.lang;
+    if (htmlLang && htmlLang.toLowerCase() === "nl") {
+        currentLanguage = "nl";
+    } else {
+        currentLanguage = "en"; 
+    }
+}
+
+checkInitialLanguage();
+
 function showSlide() {
+    console.log("Current Language: ", currentLanguage);
     const slides = document.getElementsByClassName("mySlides");
+    const textContainers = document.getElementsByClassName("text-container");
 
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
@@ -108,9 +123,60 @@ function showSlide() {
 
     slides[currentSlideIndex].style.display = "block";
 
+    let newTextContent;
+    if (currentLanguage === "nl") {
+        newTextContent = getDutchTextContentForSlide(currentSlideIndex);
+        } else {
+            newTextContent = getEnglishTextContentForSlide(currentSlideIndex);
+    }
+
+    for (let i = 0; i < textContainers.length; i++) {
+        textContainers[i].innerHTML = newTextContent;
+        }
     
     updatePageIndicators();
 }
+function toggleLanguage() {
+    currentLanguage = currentLanguage === "nl" ? "en" : "nl";
+    showSlide(); 
+}
+
+
+function getDutchTextContentForSlide(index) {
+    switch (index) {
+        case 0:
+            return "In het nxt museum kan je je beste moment vangen als artwork. Het is een magische plek waar jong en oud samen kunnen genieten van de moderne technologie zoals AI. Het museum waar het veleden met de toekomst. is verbonden en alle bezoekers een bioscoop belevenis krijgt. Koop nu een ticket en ga op een avontuur over de toekomst! dit is an img over face scannen met de nieuwe tech , de schijfer geeft een beetje zijn mening"
+        case 1:
+            return "de lichtjes geeft aan ";
+        case 2:
+            return "Dutch Text for Slide 3";
+        case 3:
+            return "Dutch Text for Slide 4";
+        case 4:
+            return "Dutch Text for Slide 5";
+        default:
+            return "Default Dutch Text";
+    }
+}
+
+
+function getEnglishTextContentForSlide(index) {
+    switch (index) {
+        case 0:
+            return "English Text for Slide 1";
+        case 1:
+            return "English Text for Slide 2";
+        case 2:
+            return "English Text for Slide 3";
+        case 3:
+            return "English Text for Slide 4";
+        case 4:
+            return "English Text for Slide 5";
+        default:
+            return "Default English Text";
+    }
+}
+
 
 function changeSlide(n) {
     currentSlideIndex += n;
