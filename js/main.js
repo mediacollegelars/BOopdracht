@@ -167,7 +167,7 @@ function getEnglishTextContentForSlide(index) {
         case 1:
             return "Furthermore, at the nxt museum it is of course also interesting to provide information about the things you see, just like all other museums around the world, but as we just said, we also, for example, with all items you can ask for an explanation if you has an employee who either happens to be sitting in the room or at the counter or who even shows you around. But in this photo it is a bit of an illusion that has to do with lights";
         case 2:
-            return "With us, not everything is small, but it can certainly be large, for example, with us you can also have the entire room full and then this image is an example, here is of course a kind so that it seems that you will bump into something walking, you may feel a little dizzy but you should be fine, but don't worry this is certainly not the only great thing we have so you won't be disappointed!";
+            return "With certain objects you may also get some kind of example of something if something needs to be explained, for example this photo, we won't reveal what it is about, but if you use your imagination a bit you can just maybe you can think about what exactly it could be. But believe us, you will be surprised!";
         case 3:
             return "With us, not everything is small, but it can certainly be large, for example, with us you can also have the entire room full and then this image is an example, here is of course a kind so that it seems that you will bump into something walking, you may feel a little dizzy but you should be fine, but don't worry this is certainly not the only great thing we have so you won't be disappointed!";
         case 4:
