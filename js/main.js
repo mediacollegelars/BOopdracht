@@ -65,10 +65,7 @@ function createStarRating(rating) {
 }
 
 
-const reviewsSection = document.querySelector('.reviews');
-reviewsSection.innerHTML = '';
-reviewsSection.appendChild(createStarRating(4)); 
-reviewsSection.innerHTML += '<p>Great experience at Nxt Museum!</p>'; 
+
 
 const pageIndicators = document.querySelectorAll('.page-indicator');
 
