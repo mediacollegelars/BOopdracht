@@ -327,15 +327,15 @@ footer{
 
 @media screen and (max-width: 600px) {
     .header {
-        padding: 15px; /* Adjust padding for smaller screens */
+        padding: 15px; 
     }
 
     .headerTitle {
-        font-size: 40%; /* Adjust font size for smaller screens */
+        font-size: 40%; 
         gap:10%;
     }
 
     .button, .special-button, .headerButton {
-        font-size: 55%; /* Adjust font size for smaller screens */
+        font-size: 55%; 
     }
 }
